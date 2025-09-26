@@ -1,3 +1,48 @@
 #orangeicon { 
-    color: #ff7f00; /* orange */
+    color: #ff7f00;
+}
+
+.social-icon {
+    height: 3rem;
+    width: 3rem;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    height: 4rem;
+    width: 4rem;
+}
+
+.lua-icon {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 1.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7f00;
+  transform: translateY(-5px);
+  -webkit-mask: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lua.svg') center/contain no-repeat;
+  mask: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lua.svg') center/contain no-repeat;
+}
+.adobe-icon {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: -1.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7f00;
+  transform: translateY(-5px);
+  -webkit-mask: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/adobephotoshop.svg') center/contain no-repeat;
+  mask: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/adobephotoshop.svg') center/contain no-repeat;
+}
+
+.tool-icon-filter img {
+  width: 28px;
+  height: 28px;
+  filter: invert(38%) saturate(520%) hue-rotate(340deg) brightness(95%) contrast(92%);
 }
